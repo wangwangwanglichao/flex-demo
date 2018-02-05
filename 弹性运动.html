@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            border-radius: 50px;
+        }
+        #div2 {
+            width: 100px;
+            height: 100px;
+            background: green;
+            position: absolute;
+            border-radius: 50px;
+        }
+        #div3 {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: absolute;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+
+    <script src="flex2.js"></script>
+    <script>
+        var oDiv1 = document.getElementById("div1");
+        var oDiv2 = document.getElementById("div2");
+        var oDiv3 = document.getElementById("div3");
+        change(oDiv1);
+        change(oDiv2);
+        change(oDiv3);
+    </script>
+</body>
+</html>
